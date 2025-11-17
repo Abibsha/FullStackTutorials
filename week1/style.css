@@ -1,0 +1,16 @@
+*{
+	background-color: lightpink;
+}
+
+section div h2{
+	color: brown;
+}
+
+#fav{
+	width:300 px;
+	color:green;
+}
+
+nav a{
+	color:green;
+}
