@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f4f3;   
+    color: #1f3b3b;              
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0e6868;              
+}
+
+form {
+    background-color: #ffffff;   
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 420px;
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+}
+
+form h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #0e6868;
+}
+
+form input {
+    width: 100%;
+    padding: 14px;           
+    margin: 12px 0;           
+    border-radius: 6px;
+    border: 1px solid #a8d3d2;
+    background-color: #f6fefe;
+    box-sizing: border-box;   
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #16a3a3;  
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+form button:hover {
+    background-color: #0e8d8d;  
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #0e6868;
+}
+
+#search-input {
+    display: block;
+    width: 60%;
+    margin: 0 auto 30px auto;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #a8d3d2;
+    background-color: #ffffff;
+}
+
+.movie-item {
+    background-color: #ffffff;
+    padding: 18px;
+    margin: 12px auto;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.movie-button {
+    padding: 8px 14px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.edit-btn {
+    background-color: #25bdbd;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #1ea4a4;
+}
+
+.delete-btn {
+    background-color: #ff8575;  
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #e67465;
+}
