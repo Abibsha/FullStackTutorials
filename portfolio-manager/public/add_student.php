@@ -4,8 +4,6 @@ include '../includes/header.php';
 $error = '';
 $success = '';
 
-/* ========= REQUIRED FUNCTIONS ========= */
-
 function formatName($name) {
 	return ucwords(trim($name));
 }
@@ -27,8 +25,6 @@ function saveStudent($name, $email, $skillsArray) {
 		throw new Exception('Failed to save student data.');
 	}
 }
-
-/* ========= FORM HANDLING ========= */
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	try {
